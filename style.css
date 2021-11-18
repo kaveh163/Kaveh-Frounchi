@@ -6,7 +6,22 @@ body {
     color: #505962;
 }
 
+.resume {
+    color: #505962;
+}
 
+/* .card {
+    padding: 0!important;
+} */
+.card-header, .card-footer {
+    background-color: transparent;
+}
+.card:hover {
+    background-color: #1ebba3;
+}
+.jumbotron {
+    margin-bottom: 0!important;
+}
 .wrapper {
     margin-top: 3.7rem;
     position: relative;
@@ -104,7 +119,7 @@ body {
     font-size: 2.4rem;
 }
 
-.btn-secondary {
+/* .btn-secondary {
     border-width: medium;
     border-radius: 0;
     text-transform: uppercase;
@@ -113,12 +128,12 @@ body {
     margin: 1rem;
     background-color: #1ebba3;
     border-color: #1ebba3;
-}
+} */
 
-.btn-secondary:hover {
+/* .btn-secondary:hover {
     background-color: #189582;
     border-color: #189582;
-}
+} */
 
 /*--- Features Section ---*/
 /* .jumbotron {
