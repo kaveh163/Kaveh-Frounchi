@@ -259,6 +259,13 @@ hr.socket {
 
     }
 }
+
+/* @media (max-width: 850px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+} */
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
