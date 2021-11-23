@@ -260,6 +260,11 @@ hr.socket {
     }
 }
 
+@media (max-width: 576px) {
+    .card {
+        height: 45vh!important;
+    }
+}
 /* @media (max-width: 850px) {
     .flex-container {
         display: flex;
