@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
@@ -259,28 +263,34 @@ hr.socket {
 
     }
 }
-@media (min-width: 320px) and (max-width : 359px) {
+
+@media (min-width: 320px) and (max-width : 359px) and (orientation: portrait) {
     .card {
         height: 50vh!important;
     }
 }
-@media (min-width: 360px) and (max-width: 576px) {
+@media (min-width: 360px) and (max-width: 576px) and (orientation: portrait){
     .card {
         height: 45vh!important;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 568px) and (min-height: 320px) and (orientation: landscape) {
     .card {
-        height: 50vh!important;
+        height: 70vh!important;
     }
 }
-@media (min-width: 577px) and (max-width:768px) {
+@media (min-width: 992px) and (orientation: landscape) {
+    .card {
+        height: 55vh!important;
+    }
+}
+@media (min-width: 577px) and (max-width:991px) and (orientation: portrait) {
     .card {
         height: 59vh!important;
         
     }
 }
-@media (min-width: 769px) and (max-width : 991px) {
+@media (min-width: 992px) and (orientation: portrait) {
     .card {
         height: 55vh!important;
     }
