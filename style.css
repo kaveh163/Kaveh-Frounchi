@@ -10,6 +10,10 @@ body {
     color: #505962;
 }
 
+.enlarge {
+    max-width: 100%;
+}
+
 .resume {
     color: #505962;
 }
