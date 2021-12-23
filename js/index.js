@@ -4,11 +4,16 @@ $(function() {
     let myHtml;
     let myHtml2;
     $('.enlarge').on('click', function(event){
+       
         if(bool) {
+            $('#large').empty();
+            myHtml = '';
+
             // $(this).css("transform", "scale(1.5,1.5)");
             $(".enlarge").attr("data-toggle", "modal");
             $(".enlarge").attr("data-target", '#largen');
            let img = event.target;
+           
         //    let width = img.width * 2;
         //    let height = img.height * 2;
         let width = '100%';
