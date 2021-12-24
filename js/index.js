@@ -23,7 +23,7 @@ $(function() {
            myHtml += "<div class='modal-dialog'>"
            myHtml += "<div class='modal-content'>"
            myHtml += "<div class='modal-body write'>"
-           myHtml += "<button type='button' class='close' data-dismiss='modal'>&times;</button>"
+           myHtml += "<button type='button' class='close iconSize' data-dismiss='modal'>&times;</button>"
            myHtml += "<img src=" + img.src + " width=" + width + " height=" + height + " alt='Magnified image'>"
            myHtml += "</div>"
            myHtml += "</div>"
